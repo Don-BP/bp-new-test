@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* 
+ * BRAIN POWER - Final Stabilized Reset
+ * ------------------------------------
+ */
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  /* Remove width: 100vw as it often causes double scrollbars with padding/borders */
+}
+
+/* Ensure background color is consistent everywhere */
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-osx-font-smoothing: grayscale;
+}
+
+/* Fix for trailing whitespace at bottom of images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
