@@ -254,22 +254,22 @@ export default function App() {
           >
             <div className="space-y-4 mb-8">
               <h1 className="inline-block bg-white px-3 py-3 font-bold text-gray-800 leading-tight text-4xl md:text-6xl shadow-lg border-l-8 border-[#2b82c9]">
-                莠ｺ縺九ｉ縲√％縺薙ｍ縺九ｉ
+                人から、こころから
               </h1>
               <div className="h-2" />
               <h1 className="inline-block bg-white px-3 py-3 font-bold text-gray-800 leading-tight text-4xl md:text-6xl shadow-lg border-l-8 border-[#2b82c9]">
-                縺､縺ｪ縺後ｋ譛ｪ譚･
+                つながる未来
               </h1>
             </div>
             <div className="space-y-2">
               <div className="mb-1">
-                <p className="text-gray-800 font-bold text-xl leading-relaxed bg-white/70 inline-block px-6 py-1 shadow-sm">蜒阪￥莠ｺ縺ｫ繧ゅ∽ｼ∵･ｭ縺ｫ繧ゅ・/p>
+                <p className="text-gray-800 font-bold text-xl leading-relaxed bg-white/70 inline-block px-6 py-1 shadow-sm">働く人にも、企業にも。</p>
               </div>
               <div className="mb-1">
-                <p className="text-gray-800 font-bold text-xl leading-relaxed bg-white/70 inline-block px-6 py-1 shadow-sm">蟇・ｊ豺ｻ縺・ｶ壹￠縺ｦ縺阪◆蜊贋ｸ也ｴ縺ｮ菫｡鬆ｼ縺ｧ縲・/p>
+                <p className="text-gray-800 font-bold text-xl leading-relaxed bg-white/70 inline-block px-6 py-1 shadow-sm">寄り添い続けてきた半世紀の信頼で、</p>
               </div>
               <div>
-                <p className="text-gray-800 font-bold text-xl leading-relaxed bg-white/70 inline-block px-6 py-1 shadow-sm">螳牙ｿ・ｒ螻翫￠縺ｾ縺吶・/p>
+                <p className="text-gray-800 font-bold text-xl leading-relaxed bg-white/70 inline-block px-6 py-1 shadow-sm">安心を届けます。</p>
               </div>
             </div>
           </motion.div>
@@ -280,9 +280,9 @@ export default function App() {
       <div className="relative w-full bg-[#fefce8] -mt-2 z-[150]">
         {/* Action Buttons Section */}
         <section className="relative z-[200] -mt-12 py-10 px-4 flex flex-col md:flex-row justify-center items-center gap-6">
-          <ActionButton color="bg-[#8ab8a8]" hoverColor="hover:bg-[#76a393]" text="莨夂､ｾ諠・ｱ繧偵∩繧・ delay={0.1} />
-          <ActionButton color="bg-[#e87a82]" hoverColor="hover:bg-[#d66870]" text="蟆主・莠倶ｾ九ｒ縺ｿ繧・ delay={0.2} />
-          <ActionButton color="bg-[#4ba3d3]" hoverColor="hover:bg-[#3991c1]" text="繧ｹ繧ｿ繝・ヵ縺ｮ譁ｹ縺ｯ縺薙■繧・ delay={0.3} />
+          <ActionButton color="bg-[#8ab8a8]" hoverColor="hover:bg-[#76a393]" text="会社情報をみる" delay={0.1} />
+          <ActionButton color="bg-[#e87a82]" hoverColor="hover:bg-[#d66870]" text="導入事例をみる" delay={0.2} />
+          <ActionButton color="bg-[#4ba3d3]" hoverColor="hover:bg-[#3991c1]" text="スタッフの方はこちら" delay={0.3} />
         </section>
 
         {/* About Us Section */}
@@ -328,16 +328,18 @@ export default function App() {
           </div>
 
           <div className="relative z-50 max-w-4xl mx-auto px-4">
-            <p className="text-sm font-bold text-gray-500 mb-2 tracking-widest">遘√◆縺｡縺ｫ縺､縺・※</p>
+            <p className="text-sm font-bold text-gray-500 mb-2 tracking-widest">私たちについて</p>
             <h2 className="text-5xl md:text-7xl font-extrabold text-[#7ab8b1] mb-8 uppercase tracking-tighter">About Us</h2>
             <h3 className="text-xl md:text-2xl font-black text-gray-800 mb-6 leading-tight">
-              繝悶Ξ繝ｼ繝ｳ繝代Ρ繝ｼ縺ｯ縲・br className="md:hidden" />莠ｺ譚舌・螳夂捩縺ｨ菫｡鬆ｼ縺ｫ縺薙□繧上ｊ邯壹￠縺ｦ蜊贋ｸ也ｴ
+              ブレーンパワーは、<br className="md:hidden" />人材の定着と信頼にこだわり続けて半世紀
             </h3>
             <p className="text-gray-500 leading-loose font-bold text-sm max-w-2xl mx-auto mb-3">
-              莠句漁繧・が繝輔ぅ繧ｹ繝ｯ繝ｼ繧ｯ縲∬｣ｽ騾繝ｻ迚ｩ豬√√し繝ｼ繝薙せ縲∵蕗閧ｲ縺ｪ縺ｩ縲・br className="hidden md:block" />
-              霑醍柄繝ｻ鬥夜・蝨上・蛹鈴未譚ｱ縺ｫ譬ｹ縺悶＠縺滓髪謠ｴ繧貞ｱ暮幕縺励※縺・∪縺吶・            </p>
+              事務やオフィスワーク、製造・物流、サービス、教育など、<br className="hidden md:block" />
+              近畿・首都圏・北関東に根ざした支援を展開しています。
+            </p>
             <p className="text-gray-400 font-bold text-xs">
-              縺薙ｌ縺九ｉ繧ゅ∽ｺｺ縺ｨ莨∵･ｭ縺ｮ縲御ｿ｡鬆ｼ縲阪ｒ蜴溽せ縺ｫ縲∝ｿ・・騾壹≧縺､縺ｪ縺後ｊ繧定ご繧薙〒縺・″縺ｾ縺吶・            </p>
+              これからも、人と企業の「信頼」を原点に、心の通うつながりを育んでいきます。
+            </p>
           </div>
         </section>
 
@@ -395,9 +397,9 @@ export default function App() {
 
             <div className="absolute top-0 left-0 w-full z-40 px-6 pt-8 md:pt-16">
               <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-                <InfoCard title="莨夂､ｾ諠・ｱ" icon={<img src="./assets/Buildings/building 1.png" className="w-[85%]" />} dotColor="bg-[#e87a82]" delay={0.1} />
-                <InfoCard title="險ｱ隱榊庄繝ｻ隱榊ｮ壻ｸ隕ｧ" icon={<img src="./assets/Buildings/school 1.png" className="w-[80%]" />} dotColor="bg-[#8ab8a8]" delay={0.2} />
-                <InfoCard title="謨ｰ蟄励〒隕九ｋ蠖鍋､ｾ" icon={<img src="./assets/objects/laptop.png" className="w-[85%]" />} dotColor="bg-[#4ba3d3]" delay={0.3} />
+                <InfoCard title="会社情報" icon={<img src="./assets/Buildings/building 1.png" className="w-[85%]" />} dotColor="bg-[#e87a82]" delay={0.1} />
+                <InfoCard title="許認可・認定一覧" icon={<img src="./assets/Buildings/school 1.png" className="w-[80%]" />} dotColor="bg-[#8ab8a8]" delay={0.2} />
+                <InfoCard title="数字で見る当社" icon={<img src="./assets/objects/laptop.png" className="w-[85%]" />} dotColor="bg-[#4ba3d3]" delay={0.3} />
               </div>
             </div>
           </div>
@@ -438,7 +440,7 @@ function InfoCard({ title, icon, dotColor, delay }: { title: string, icon: React
         {icon}
       </div>
       <button className="mt-auto bg-[#2d3735] text-white text-sm font-black py-2.5 px-10 rounded-full transition-all hover:bg-black hover:scale-105 tracking-widest whitespace-nowrap">
-        隧ｳ邏ｰ縺ｸ
+        詳細へ
       </button>
     </motion.div>
   );
